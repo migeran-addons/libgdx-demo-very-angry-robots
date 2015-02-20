@@ -1,11 +1,16 @@
 buildscript {
     repositories {
+        maven {
+            url('https://dl.migeran.com/maven/')
+        }
         mavenCentral()
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.9+'
+        // Migeran plugin
+        classpath 'com.migeran:migeran.build.gradle:0.90.+'
+        classpath 'com.android.tools.build:gradle:1.0+'
     }
 }
 
@@ -16,11 +21,14 @@ allprojects {
     version = "1.0"
     ext {
         appName = "Very-Angry-Robots"
-        gdxVersion = "1.0-SNAPSHOT"
+        gdxVersion = "1.5.1-SNAPSHOT"
         roboVMVersion = "0.0.10"
     }
     
     repositories {
+        maven {
+            url('https://dl.migeran.com/maven/')
+        }
         mavenLocal();
         mavenCentral()
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }

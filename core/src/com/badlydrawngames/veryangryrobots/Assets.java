@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Application.ApplicationType;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.g2d.Animation;
@@ -207,30 +208,32 @@ public class Assets {
 	}
 
 	private static void loadSounds () {
+		String soundExtension = Gdx.app.getType() == ApplicationType.iOS ? ".wav" : ".ogg";
 		standardTaunts = loadSounds("standard_taunts");
 		chickenTaunts = loadSounds("chicken_taunts");
-		achievementSound = loadSound("achievement.ogg");
-		buttonSound = loadSound("bleep.ogg");
-		electrocuteRobotSound = loadSound("buzz01.ogg");
-		electrocutePlayerSound = loadSound("buzz05.ogg");
-		captainEnterRoomSpeech = loadSound("captain_enter_room_speech.ogg");
-		spawnPlayerSound = loadSound("electrifying01.ogg");
-		exitRoomAsChickenSpeech = loadSound("exit_room_as_chicken_speech.ogg");
-		killRobotSound = loadSound("hit01.ogg");
-		killPlayerSound = loadSound("hit02.ogg");
-		playerShotSound = loadSound("hit02.ogg");
-		robotShotSound = loadSound("hit02.ogg");
-		killLastRobotSound = loadSound("hit03.ogg");
-		extraLifeSound = loadSound("pickup.ogg");
+		achievementSound = loadSound("achievement" + soundExtension);
+		buttonSound = loadSound("bleep" + soundExtension);
+		electrocuteRobotSound = loadSound("buzz01" + soundExtension);
+		electrocutePlayerSound = loadSound("buzz05" + soundExtension);
+		captainEnterRoomSpeech = loadSound("captain_enter_room_speech" + soundExtension);
+		spawnPlayerSound = loadSound("electrifying01" + soundExtension);
+		exitRoomAsChickenSpeech = loadSound("exit_room_as_chicken_speech" + soundExtension);
+		killRobotSound = loadSound("hit01" + soundExtension);
+		killPlayerSound = loadSound("hit02" + soundExtension);
+		playerShotSound = loadSound("hit02" + soundExtension);
+		robotShotSound = loadSound("hit02" + soundExtension);
+		killLastRobotSound = loadSound("hit03" + soundExtension);
+		extraLifeSound = loadSound("pickup" + soundExtension);
 	}
 
 	private static Sound[] loadSounds (String dir) {
+		String soundExtension = Gdx.app.getType() == ApplicationType.iOS ? ".wav" : ".ogg";
 		FileHandle dh = Gdx.files.internal("data/sounds/" + dir);
 		FileHandle[] fhs = dh.list();
 		List<Sound> sounds = new ArrayList<Sound>();
 		for (int i = 0; i < fhs.length; i++) {
 			String name = fhs[i].name();
-			if (name.endsWith(".ogg")) {
+			if (name.endsWith(soundExtension)) {
 				sounds.add(loadSound(dir + "/" + name));
 			}
 		}

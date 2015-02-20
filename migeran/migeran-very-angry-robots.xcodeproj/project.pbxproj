@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26FFB58183C186415AE78946 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = C6C9FBF39237019FBA218ACC /* preregister.txt */; };
+		5D9E633EE33EE506827E954B /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = C866D19950708DBFB83F7ACD /* application.jar */; };
+		62E3E9287E8463517C172083 /* preregister.txt in Resources */ = {isa = PBXBuildFile; fileRef = 57AB8E8E6AD839485CD48375 /* preregister.txt */; };
+		6BB0A240BBB081BD4B9D49F9 /* MigeranSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2C886F23EC5748AE5C21148 /* MigeranSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84FDBADE1A3F2BAB00193F9C /* data in Resources */ = {isa = PBXBuildFile; fileRef = 84FDBADD1A3F2BAB00193F9C /* data */; };
+		84FDBAE01A3F2BC700193F9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBADF1A3F2BC700193F9C /* UIKit.framework */; };
+		84FDBAE21A3F2BCE00193F9C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBAE11A3F2BCE00193F9C /* OpenGLES.framework */; };
+		84FDBAE41A3F2BD500193F9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBAE31A3F2BD500193F9C /* QuartzCore.framework */; };
+		84FDBAE61A3F2BE300193F9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBAE51A3F2BE300193F9C /* CoreGraphics.framework */; };
+		84FDBAE81A3F2BEA00193F9C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBAE71A3F2BEA00193F9C /* OpenAL.framework */; };
+		84FDBAEA1A3F2BF300193F9C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBAE91A3F2BF300193F9C /* AudioToolbox.framework */; };
+		84FDBAEC1A3F2C0300193F9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBAEB1A3F2C0300193F9C /* AVFoundation.framework */; };
+		84FDBAEE1A3F2C0F00193F9C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBAED1A3F2C0F00193F9C /* CoreFoundation.framework */; };
+		84FDBAF01A3F2C1A00193F9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDBAEF1A3F2C1A00193F9C /* Foundation.framework */; };
+		9D46F65D1ED1185AD8B83041 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE79E76F309DB71805F0F422 /* main.cpp */; };
+		9DD8845C504ACB880362CD64 /* MigeranSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C886F23EC5748AE5C21148 /* MigeranSDK.framework */; };
+		A18E8BFEBF7ABC3BD6D4D91D /* classlist.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5AA11B3BF6D2A18FC32416C /* classlist.txt */; };
+		BF3C59690C0B35D5F8230ACE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE79E76F309DB71805F0F422 /* main.cpp */; };
+		C8CB3805E781018493DB39E4 /* MigeranSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2C886F23EC5748AE5C21148 /* MigeranSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9BBD399B4B52DDCEF0FFE11 /* application.jar in Resources */ = {isa = PBXBuildFile; fileRef = D4E03C85F653EFE56FD289A7 /* application.jar */; };
+		E029207CD91F1BFD4C3DCBA7 /* MigeranSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C886F23EC5748AE5C21148 /* MigeranSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A551B1059A22A1FEA3044274 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6BB0A240BBB081BD4B9D49F9 /* MigeranSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0874974207FFB484F14E8B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C8CB3805E781018493DB39E4 /* MigeranSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		57AB8E8E6AD839485CD48375 /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = build/migeran/test/preregister.txt; sourceTree = SOURCE_ROOT; };
+		763748D5BBF96596A31BFAE8 /* migeran-very-angry-robots-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "migeran-very-angry-robots-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FDBADD1A3F2BAB00193F9C /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = data; sourceTree = SOURCE_ROOT; };
+		84FDBADF1A3F2BC700193F9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84FDBAE11A3F2BCE00193F9C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		84FDBAE31A3F2BD500193F9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84FDBAE51A3F2BE300193F9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84FDBAE71A3F2BEA00193F9C /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		84FDBAE91A3F2BF300193F9C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		84FDBAEB1A3F2C0300193F9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84FDBAED1A3F2C0F00193F9C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		84FDBAEF1A3F2C1A00193F9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A15FF975ABB152D2973D2BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AA11B3BF6D2A18FC32416C /* classlist.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = classlist.txt; path = build/migeran/test/classlist.txt; sourceTree = SOURCE_ROOT; };
+		BE79E76F309DB71805F0F422 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C65220D46E347EE089F1B094 /* Info-Test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Test.plist"; sourceTree = "<group>"; };
+		C6C9FBF39237019FBA218ACC /* preregister.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = preregister.txt; path = build/migeran/main/preregister.txt; sourceTree = SOURCE_ROOT; };
+		C866D19950708DBFB83F7ACD /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = build/migeran/main/application.jar; sourceTree = SOURCE_ROOT; };
+		D4E03C85F653EFE56FD289A7 /* application.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = application.jar; path = build/migeran/test/application.jar; sourceTree = SOURCE_ROOT; };
+		D8D43441917B6DE4B4E11D1D /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		E1DF92F4B74C0FA390CD18EF /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		E2C886F23EC5748AE5C21148 /* MigeranSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MigeranSDK.framework; path = build/migeran/iphoneos/MigeranSDK.framework; sourceTree = SOURCE_ROOT; };
+		E7E1CBB7B0979B808B461F9D /* migeran-very-angry-robots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "migeran-very-angry-robots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47405A18FA7CF3F601CD61F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FDBAF01A3F2C1A00193F9C /* Foundation.framework in Frameworks */,
+				84FDBAEE1A3F2C0F00193F9C /* CoreFoundation.framework in Frameworks */,
+				84FDBAEC1A3F2C0300193F9C /* AVFoundation.framework in Frameworks */,
+				84FDBAEA1A3F2BF300193F9C /* AudioToolbox.framework in Frameworks */,
+				84FDBAE81A3F2BEA00193F9C /* OpenAL.framework in Frameworks */,
+				84FDBAE61A3F2BE300193F9C /* CoreGraphics.framework in Frameworks */,
+				84FDBAE41A3F2BD500193F9C /* QuartzCore.framework in Frameworks */,
+				84FDBAE21A3F2BCE00193F9C /* OpenGLES.framework in Frameworks */,
+				84FDBAE01A3F2BC700193F9C /* UIKit.framework in Frameworks */,
+				9DD8845C504ACB880362CD64 /* MigeranSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C980D24641C4A5E3060281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E029207CD91F1BFD4C3DCBA7 /* MigeranSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E87522C95E44E55758D83D2 /* migeran-very-angry-robots */ = {
+			isa = PBXGroup;
+			children = (
+				F88EB04A73A46D1FBDC03699 /* Supporting Files */,
+			);
+			path = "migeran-very-angry-robots";
+			sourceTree = "<group>";
+		};
+		58828E4D4CCAEBB6D936CE07 = {
+			isa = PBXGroup;
+			children = (
+				0E87522C95E44E55758D83D2 /* migeran-very-angry-robots */,
+				FC239F0819DC6CD9392B0627 /* migeran-very-angry-robots-Test */,
+				8505E4BC33FB040E09912C5B /* Frameworks */,
+				77E36690B3D38086409F4A65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77E36690B3D38086409F4A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7E1CBB7B0979B808B461F9D /* migeran-very-angry-robots.app */,
+				763748D5BBF96596A31BFAE8 /* migeran-very-angry-robots-Test.app */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		8505E4BC33FB040E09912C5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84FDBAEF1A3F2C1A00193F9C /* Foundation.framework */,
+				84FDBAED1A3F2C0F00193F9C /* CoreFoundation.framework */,
+				84FDBAEB1A3F2C0300193F9C /* AVFoundation.framework */,
+				84FDBAE91A3F2BF300193F9C /* AudioToolbox.framework */,
+				84FDBAE71A3F2BEA00193F9C /* OpenAL.framework */,
+				84FDBAE51A3F2BE300193F9C /* CoreGraphics.framework */,
+				84FDBAE31A3F2BD500193F9C /* QuartzCore.framework */,
+				84FDBAE11A3F2BCE00193F9C /* OpenGLES.framework */,
+				84FDBADF1A3F2BC700193F9C /* UIKit.framework */,
+				E2C886F23EC5748AE5C21148 /* MigeranSDK.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		F88EB04A73A46D1FBDC03699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84FDBADD1A3F2BAB00193F9C /* data */,
+				BE79E76F309DB71805F0F422 /* main.cpp */,
+				D8D43441917B6DE4B4E11D1D /* build.xcconfig */,
+				A15FF975ABB152D2973D2BDF /* Info.plist */,
+				C6C9FBF39237019FBA218ACC /* preregister.txt */,
+				C866D19950708DBFB83F7ACD /* application.jar */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC2335AB6E0F95C63733D4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1DF92F4B74C0FA390CD18EF /* build.xcconfig */,
+				C65220D46E347EE089F1B094 /* Info-Test.plist */,
+				57AB8E8E6AD839485CD48375 /* preregister.txt */,
+				D4E03C85F653EFE56FD289A7 /* application.jar */,
+				B5AA11B3BF6D2A18FC32416C /* classlist.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC239F0819DC6CD9392B0627 /* migeran-very-angry-robots-Test */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2335AB6E0F95C63733D4E /* Supporting Files */,
+			);
+			path = "migeran-very-angry-robots-Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B361012B1F8C88AE9848B2E /* migeran-very-angry-robots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7FF106E6DAA46C3840CF3C /* Build configuration list for PBXNativeTarget "migeran-very-angry-robots" */;
+			buildPhases = (
+				BC6585ED8FF343835EE6AD8B /* Compile Sources (Migeran) */,
+				47405A18FA7CF3F601CD61F2 /* Frameworks */,
+				3E50C5B94B6619EFD54EEB22 /* Resources */,
+				A74AEDAC09F8D2A3C6DA26C9 /* Sources */,
+				A551B1059A22A1FEA3044274 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			name = "migeran-very-angry-robots";
+			productName = "migeran-very-angry-robots";
+			productReference = E7E1CBB7B0979B808B461F9D /* migeran-very-angry-robots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A67DAC462CAE509A901685CB /* migeran-very-angry-robots-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19487DEA46DCFB91A9FA64FF /* Build configuration list for PBXNativeTarget "migeran-very-angry-robots-Test" */;
+			buildPhases = (
+				38EBDDD50E63557BEC4B1B82 /* Compile Sources (Migeran) */,
+				B8C980D24641C4A5E3060281 /* Frameworks */,
+				89911EB77EA0785BD91757CD /* Resources */,
+				5EB2996E245D3993DAAD1523 /* Sources */,
+				FB0874974207FFB484F14E8B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			name = "migeran-very-angry-robots-Test";
+			productName = "migeran-very-angry-robots-Test";
+			productReference = 763748D5BBF96596A31BFAE8 /* migeran-very-angry-robots-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7C1F6A364AEFAB387980C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "MattaKis Consulting Kft.";
+			};
+			buildConfigurationList = 17ECF67167EAAA9A175447BF /* Build configuration list for PBXProject "migeran-very-angry-robots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58828E4D4CCAEBB6D936CE07;
+			productRefGroup = 77E36690B3D38086409F4A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B361012B1F8C88AE9848B2E /* migeran-very-angry-robots */,
+				A67DAC462CAE509A901685CB /* migeran-very-angry-robots-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E50C5B94B6619EFD54EEB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FFB58183C186415AE78946 /* preregister.txt in Resources */,
+				84FDBADE1A3F2BAB00193F9C /* data in Resources */,
+				5D9E633EE33EE506827E954B /* application.jar in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89911EB77EA0785BD91757CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E3E9287E8463517C172083 /* preregister.txt in Resources */,
+				D9BBD399B4B52DDCEF0FFE11 /* application.jar in Resources */,
+				A18E8BFEBF7ABC3BD6D4D91D /* classlist.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38EBDDD50E63557BEC4B1B82 /* Compile Sources (Migeran) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Sources (Migeran)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${SRCROOT}/\"\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n    if [ $? -ne 0 ]; then\n        echo \"Checking with 'which'\"\n        GRADLE_EXEC=$(which 'gradle')\n    fi\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Falling back to '/usr/local/bin/gradle'\"\n        GRADLE_EXEC=/usr/local/bin/gradle\n    fi\n}\nfindGradle\n\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MIGERAN_GRADLE_EXTERNAL_BUILD\" ]; then\n\t$GRADLE_EXEC --daemon migeranXcodeInternal\nfi\n";
+		};
+		BC6585ED8FF343835EE6AD8B /* Compile Sources (Migeran) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Sources (Migeran)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "cd \"${SRCROOT}/\"\n\n########################\n# Find Gradle\n########################\nfunction findGradle {\n\tCD=\"$PWD\"\n\twhile [ \"$CD\" != \"\" ]; do\n\t\techo \"Looking for gradlew in $CD\"\n\t\tif [ -x \"$CD/gradlew\" ]; then\n\t\t\tGRADLE_EXEC=$CD/gradlew\n\t\t\treturn 0\n\t\tfi\n\t\tCD=\"${CD%/*}\"\n\tdone\n    if [ $? -ne 0 ]; then\n        echo \"Checking with 'which'\"\n        GRADLE_EXEC=$(which 'gradle')\n    fi\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Falling back to '/usr/local/bin/gradle'\"\n        GRADLE_EXEC=/usr/local/bin/gradle\n    fi\n}\nfindGradle\n\n########################\n# Execute Gradle build\n########################\nif [ -z \"$MIGERAN_GRADLE_EXTERNAL_BUILD\" ]; then\n\t$GRADLE_EXEC --daemon migeranXcodeInternal\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB2996E245D3993DAAD1523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3C59690C0B35D5F8230ACE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74AEDAC09F8D2A3C6DA26C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D46F65D1ED1185AD8B83041 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		336FF393A1643683662F61F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D43441917B6DE4B4E11D1D /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/migeran/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = "migeran-very-angry-robots/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ${SRCROOT}/build/migeran/iphonesimulator";
+				OTHER_LDFLAGS = (
+					"${MIGERAN_OTHER_LDFLAGS}",
+					"-force_load",
+					"\"$(SRCROOT)/native/ios/libObjectAL.a\"",
+					"-force_load",
+					"\"$(SRCROOT)/native/ios/libgdx.a\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		7EAB608D49DD6F8704E789BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DF92F4B74C0FA390CD18EF /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/migeran/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = "migeran-very-angry-robots-Test/Info-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ${SRCROOT}/build/migeran/iphonesimulator";
+				OTHER_LDFLAGS = "${MIGERAN_OTHER_LDFLAGS}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		9E4DEA705A3F49C86A30758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "build-xcode";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "i386 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		B397E900FE02008DF99B4016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DF92F4B74C0FA390CD18EF /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/migeran/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = "migeran-very-angry-robots-Test/Info-Test.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ${SRCROOT}/build/migeran/iphonesimulator";
+				OTHER_LDFLAGS = "${MIGERAN_OTHER_LDFLAGS}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		C2E8319AEB7A67C1A53B8D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D43441917B6DE4B4E11D1D /* build.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/migeran/$(PLATFORM_NAME)",
+				);
+				INFOPLIST_FILE = "migeran-very-angry-robots/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ${SRCROOT}/build/migeran/iphonesimulator";
+				OTHER_LDFLAGS = (
+					"${MIGERAN_OTHER_LDFLAGS}",
+					"-force_load",
+					"\"$(SRCROOT)/native/ios/libObjectAL.a\"",
+					"-force_load",
+					"\"$(SRCROOT)/native/ios/libgdx.a\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		D575DFCCAC10A5E7333A28F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SYMROOT = "build-xcode";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "i386 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17ECF67167EAAA9A175447BF /* Build configuration list for PBXProject "migeran-very-angry-robots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E4DEA705A3F49C86A30758A /* Debug */,
+				D575DFCCAC10A5E7333A28F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19487DEA46DCFB91A9FA64FF /* Build configuration list for PBXNativeTarget "migeran-very-angry-robots-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAB608D49DD6F8704E789BE /* Debug */,
+				B397E900FE02008DF99B4016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7FF106E6DAA46C3840CF3C /* Build configuration list for PBXNativeTarget "migeran-very-angry-robots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336FF393A1643683662F61F0 /* Debug */,
+				C2E8319AEB7A67C1A53B8D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7C1F6A364AEFAB387980C44 /* Project object */;
+}
